@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav-home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/drawler_home" />
+        <item
+            android:id="@+id/nav-category"
+            android:icon="@drawable/ic_category"
+            android:title="@string/drawler_category" />
+        <item
+            android:id="@+id/nav-account"
+            android:icon="@drawable/ic_account"
+            android:title="@string/drawler_account" />
+        <item
+            android:id="@+id/nav-notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/drawler_notification" />
+    </group>
+
+    <item android:title="@string/drawler_help">
+        <menu>
+            <item android:title="@string/drawler_helpifo" />
+
+        </menu>
+    </item>
+
+
+</menu>

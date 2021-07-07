@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AppTMDT</string>
+    <string name="drawler_home">Trang chủ</string>
+    <string name="drawler_category">Danh sách ngành hàng</string>
+    <string name="drawler_account">Tài khoản</string>
+    <string name="drawler_notification">Thông báo</string>
+    <string name="drawler_help">hỗ trợ</string>
+    <string name="drawler_helpifo">hotline</string>
+    <string name="drawer_header_guest">Đăng nhập</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_signup">Đăng ký</string>
+    <string name="login_email_hint">Vui lòng nhập email</string>
+    <string name="login_pass_hint">Mật khẩu</string>
+    <string name="signup_name">Họ tên</string>
+    <string name="signup_sdt">Số Điện Thoại</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_pass">Mật khẩu</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="category_smartphone">Điện thoại</string>
+    <string name="category_fashion">Thời Trang</string>
+    <string name="category_book">Sách</string>
+    <string name="category_electric">Điện tử</string>
+    <string name="category_sport">Thể thao</string>
+    <string name="category_computer">Laptop-pc</string>
+    <string name="product_detail">Thông tin chi tiet</string>
+    <string name="price_icon">đ</string>
+    <string name="buy">Mua</string>
+    <string name="profile_itembuy">quản lý đơn hàng</string>
+    <string name="profile_wishlist">sản phẩm yeu thích</string>
+    <string name="profile_logout">Đăng xuất</string>
+    <string name="login_error">Wrong email or password</string>
+
+
+</resources>

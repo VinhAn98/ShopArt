@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Login_SignupActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imagetop"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/btn_login"
+                android:id="@+id/btn_login"/>
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/btn_signup"
+                android:id="@+id/btn_signup"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_loginsignup">
+
+
+    </FrameLayout>
+
+</LinearLayout>

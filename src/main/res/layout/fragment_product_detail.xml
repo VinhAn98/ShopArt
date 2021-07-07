@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.synnapps.carouselview.CarouselView
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+    </com.synnapps.carouselview.CarouselView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/product_name"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/product_price"
+        android:textColor="@color/product_price"
+        android:textSize="25dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimary"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow >
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/product_detail"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colorPrimary">
+
+        </View>
+
+        <TableRow >
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colorPrimary">
+
+        </View>
+
+        <TableRow >
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colorPrimary">
+
+        </View>
+
+        <TableRow >
+
+            <TextView
+                android:layout_weight="0"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/product_name"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colorPrimary">
+
+        </View>
+
+
+    </TableLayout>
+
+</LinearLayout>
